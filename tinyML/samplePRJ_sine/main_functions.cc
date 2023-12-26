@@ -18,11 +18,11 @@ limitations under the License.
 #include "tinyML/samplePRJ_sine/constants.h"
 #include "tinyML/samplePRJ_sine/output_handler.h"
 #include "tinyML/samplePRJ_sine/model_data.h"
-#include "tensorflow/lite/micro/kernels/all_ops_resolver.h"
-#include "tensorflow/lite/micro/micro_error_reporter.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/schema/schema_generated.h"
-#include "tensorflow/lite/version.h"
+#include "tflite-micro/tensorflow/lite/micro/kernels/all_ops_resolver.h"
+#include "tflite-micro/tensorflow/lite/micro/micro_error_reporter.h"
+#include "tflite-micro/tensorflow/lite/micro/micro_interpreter.h"
+#include "tflite-micro/tensorflow/lite/schema/schema_generated.h"
+#include "tflite-micro/tensorflow/lite/version.h"
 
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
