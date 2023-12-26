@@ -18,7 +18,7 @@ limitations under the License.
 
 #include "tensorflow/lite/c/common.h"
 #include "tensorflow/lite/micro/micro_error_reporter.h"
-#include "wiringPi/wiringPi.h"
+#include "WiringPi/wiringPi/wiringPi.h"
 
 #define LED1 27
 #define LED2 28
