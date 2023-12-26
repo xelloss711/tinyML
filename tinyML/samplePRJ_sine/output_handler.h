@@ -16,8 +16,8 @@ limitations under the License.
 #ifndef OUTPUT_HANDLER_H_
 #define OUTPUT_HANDLER_H_
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/micro_error_reporter.h"
+#include "tflite-micro/tensorflow/lite/c/common.h"
+#include "tflite-micro/tensorflow/lite/micro/micro_error_reporter.h"
 #include "WiringPi/wiringPi/wiringPi.h"
 
 #define LED1 27
